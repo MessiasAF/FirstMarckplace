@@ -167,6 +167,11 @@ h2{
         font-size: 20px;
     }
 }
+@media screen and (max-width:463px) {
+    #butt2{
+        min-width: 0;
+    }
+}
 .hidding{
     display: none;
     transition: 0.2s;
