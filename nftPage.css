@@ -144,8 +144,3 @@ p{
         font-size: 20px;
     }
 }
-@media  screen and (max-width:591px) {
-    body{
-        padding: 50px 0 85px 0;
-    }
-}
