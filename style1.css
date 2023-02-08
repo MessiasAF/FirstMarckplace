@@ -22,6 +22,7 @@
     margin: 10px;
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 #list>li{
     height: 100%;
