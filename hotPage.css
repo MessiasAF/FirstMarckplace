@@ -19,6 +19,13 @@ header{
     backdrop-filter: blur(10px);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.466);
 }
+main{
+    display: flex;
+    width: 100vw;
+    margin: 100px 0 50px 0;
+    flex-direction: column;
+    justify-content: space-around;
+}
 #light{
     left: 50%;
     transform: translateX(-50%);
