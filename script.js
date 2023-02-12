@@ -7,7 +7,7 @@ var x = 0
 var products = (document.body.querySelectorAll('.hiddingMainRight'))
 var totalProducts = Number(products.length)
 var positionProducts = totalProducts - 1
-var a = 1
+var a = 0
 
 /* Methods */
 /* OnMenuBar */
