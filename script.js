@@ -7,7 +7,6 @@ var x = 0
 var products = (document.body.querySelectorAll('.hiddingMainRight'))
 var totalProducts = Number(products.length)
 var positionProducts = totalProducts - 1
-var a = 0
 
 /* Methods */
 /* OnMenuBar */
@@ -18,25 +17,21 @@ menuBug.addEventListener('click', () => {
             menuContent.className = 'visibleHeader'
         }, 200);
         setTimeout(() => {
-            i += a
+            i += 1
         }, 500);
     }
 })
 /* OnMenuBarButtons */
-document.body.querySelector('#nftButt').addEventListener('click', () => {
-    x += a
-})
-document.body.querySelector('#hotButt').addEventListener('click', () => {
-    x += a
-})
+document.body.querySelector('.flex').addEventListener('click', () => {
+    x += 1
 
 /* OffMenuBar */
 document.body.addEventListener('click', () => {
-    if (i === a && x === 0) {
+    if (i === 1 && x === 0) {
         menuContent.className = 'hiddingHeader'
         menuContent.setAttribute('style', 'opacity:0;transition:0.2s')
         setTimeout(() => {
         }, 200);
-        i -= a
+        i -= 1
     }
 })
