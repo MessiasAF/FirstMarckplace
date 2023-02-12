@@ -7,6 +7,7 @@ var x = 0
 var products = (document.body.querySelectorAll('.hiddingMainRight'))
 var totalProducts = Number(products.length)
 var positionProducts = totalProducts - 1
+var a = 0
 
 /* Methods */
 /* OnMenuBar */
@@ -24,6 +25,7 @@ menuBug.addEventListener('click', () => {
 /* OnMenuBarButtons */
 document.body.querySelector('.flex').addEventListener('click', () => {
     x += 1
+})
 
 /* OffMenuBar */
 document.body.addEventListener('click', () => {
